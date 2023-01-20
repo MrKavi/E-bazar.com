@@ -1,0 +1,58 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 12px;
+    background-color: rgb(34, 34, 33);
+    color: white;
+}
+
+.logo {
+    height: 40px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+}
+
+.iconSearch {
+    margin-left: -20px;
+}
+
+.search {
+    width: "400px";
+    padding: 5px 4px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+}
+
+.ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.li {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 20px;
+    font-size: large;
+    font-weight: 600;
+    list-style: none;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: full;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: 500;
+    background-color: rgb(255, 170, 0);
+    color: black;
+    padding: 4px 6px;
+    border-radius: 3px;
+}
